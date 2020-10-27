@@ -130,10 +130,7 @@ Get your copy/clone/fork from <a href="https://github.com/jscad/OpenJSCAD.org" t
 
 function main() {
    return union(
-      difference(
-         cube({size: 8, center: true}),
-         sphere({r:8, center: true})
-      ),
+      
       intersection(
           sphere({r: 2, center: true}),
           cube({size: 2.1, center: true})
