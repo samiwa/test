@@ -7,7 +7,7 @@
 
 function getParameterDefinitions () {
   return [
-    {name: 'name', initial: 'Joe Example', type: 'text', caption: 'Walker Tec', size: 30},
+    {name: 'name', initial: 'Walker Tec', type: 'text', caption: 'Dein Text', size: 30},
     {name: 'title', initial: '3D Printer Developer', type: 'text', caption: 'Your title', size: 30},
     {name: 'thickness', initial: 3, type: 'float', caption: 'Thickness'}
   ];
